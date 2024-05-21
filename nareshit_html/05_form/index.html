@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="URL" method="post">
+        <h1>Registration Form</h1>
+        <fieldset>
+            <legend>My details</legend>
+            <div>
+                <label for="fn">Enter name:</label>
+                <input type="text" id="fn" name="fnn" placeholder="First name" required>
+                <label for="ln"></label>
+                <input type="text" id="ln" name="lnn" placeholder="Last name" required>
+            </div>
+            <br>
+            <div>
+                <label for="e">Enter email:</label>
+                <input type="email" id="e" name="em" placeholder="Enter mail" required>
+            </div>
+            <br>
+            <div>
+                <label for="mn">Enter mobile number:</label>
+                <input type="tel" id="mn" name="mnn" placeholder="Mobile number" maxlength="10" required>
+            </div>
+            <br>
+            <div>
+                <label for="age">Enter age:</label>
+                <input type="number" id="age" name="agee" placeholder="Age" min="18" max="25">
+            </div>
+            <br>
+            <div class="gender">
+                <legend>Select Gender:</legend>
+                <input type="radio"  name="gender" id="male" value="male">
+                <label for="Male">Male:</label>
+                <input type="radio" name="gender" id="Female" value="female">
+                <label for="Female">Female:</label>
+            </div>
+            <br>
+            <div>
+                <legend>Select Languages:</legend>
+                <input type="checkbox" id="eng" name="engl" value="english">
+                <label for="eng">English:</label>
+                <input type="checkbox" id="tel" name="telu" value="telugu">
+                <label for="tel">Telugu:</label>
+                <input type="checkbox" id="hin" name="hind" value="hindi">
+                <label for="hin">Hindi:</label>
+            </div>
+        </fieldset>
+        <br>
+        <div>
+            <label for="eq">Education qualification:</label>
+            <select id="eq">
+                <option value="">Select option</option>
+                <option value="Btech">Btech</option>
+                <option value="Btech">Degree</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="url">Enter your linkedin URL:</label>
+            <input type="url" id="url" name="urll" placeholder="linkedin URL" required>
+        </div>
+        <br>
+        <div>
+            <label for="fil">Upload your resume:</label>
+            <input type="file" id="fil" name="file" required>
+        </div>
+        <br>
+        <div>
+            <label for="eq">Where you heard about this company</label>
+            <input type="text" list="list">
+            <datalist id="list">
+                <option value="Instagram">Instagram</option>
+                <option value="Facebook">Facebook</option>
+                <option value="College">College</option>
+            </datalist>
+        </div>
+        <br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+</body>
+</html>
