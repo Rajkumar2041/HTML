@@ -1,0 +1,39 @@
+body
+{
+    background:linear-gradient(to left, white, blue);
+    display:flex;
+    justify-content: center;
+}
+
+.border{
+    margin-top: 185px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    width:max-content;
+    padding: 30px;
+}
+
+p{
+    font-size: 50px;
+    text-align: center;
+}
+
+#num{
+    background-color:grey;
+    color: black;
+    font-size: 30px;  
+}
+
+button{
+    font-size: 50px;
+    border-radius: 10px;
+    margin: 7px;
+    padding: 10px;
+}
+
+button:hover{
+    background-color: rgb(84, 84, 206);
+    border-color: white;
+}

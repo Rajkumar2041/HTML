@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+  background-image: url(./images/bg-curve-desktop.svg);
+  background-repeat: no-repeat;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  margin: 70px;
+  margin-right: 840px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(23, 22, 22);
+  font-size: 21px;
+}
+
+.get {
+  display: flex;
+  margin: 70px;
+  margin-bottom: 60px;
+}
+
+.left p {
+  font-size: 18px;
+  width: 560px;
+  line-height: 25px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 41px;
+}
+
+.get button {
+  background-color: royalblue;
+  color: white;
+  border-color: royalblue;
+  font-size: 9px;
+  height: 35px;
+  width: 200px;
+  border-radius: 3px;
+}
+
+.get input {
+  border-radius: 3px;
+  height: 30px;
+  width: 300px;
+  font-size: 9px;
+  border-color: rgb(184, 174, 174);
+}
+
+.right img {
+  margin-top: -90px;
+  margin-left: 50px;
+  height: 500px;
+}
+
+.banner {
+  display: flex;
+  margin: 70px;
+  margin-bottom: 60px;
+  margin-top: 100px;
+}
+
+.left2 p {
+  font-size: 18px;
+  width: 560px;
+  line-height: 25px;
+}
+
+.left2 a {
+  color: green;
+}
+
+.arrow {
+  height: 4%;
+}
+.quotes {
+  height: 9px;
+}
+
+.box {
+  background-color: whitesmoke;
+  margin-top: 30px;
+  border-radius: 4px;
+  width: 550px;
+  padding: 20px;
+}
+
+.avtarname {
+  display: flex;
+}
+
+.avtar {
+  height: 50px;
+  border-radius: 50px;
+  margin-right: 8px;
+}
+
+.right2 img {
+  margin-top: 45px;
+  margin-left: 50px;
+  height: 480px;
+}
+
+.access {
+  display: flex;
+  padding: 70px;
+  background-color: rgb(109, 101, 156);
+  margin: -8px;
+  margin-top: 100px;
+  color: white;
+}
+
+.left3 {
+  width: 560px;
+  margin-right: 290px;
+}
+
+.right3 {
+  width: 300px;
+  margin-right: 50px;
+}
+
+.right3 input {
+  width: 500px;
+  border-radius: 3px;
+  border-color: white;
+  height: 35px;
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+.right3 button {
+  border-radius: 2px;
+  border-color: royalblue;
+  height: 30%;
+  width: 210px;
+  font-size: 13px;
+  background-color: royalblue;
+  color: white;
+  margin-top: 17px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+footer {
+  display: flex;
+  background-color: rgb(3, 3, 62);
+  color: white;
+  align-items: center;
+}
+
+.gridd {
+  padding: 75px;
+  margin: -8px;
+}
+
+.logooo {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  height: 50px;
+}
+
+.phonee {
+  height: 15px;
+}
+
+.emaill {
+  height: 15px;
+}
+
+.gridd a {
+  color: white;
+  font-size: 25px;
+}
+
+.b a {
+  text-decoration-line: none;
+  margin-left: 240px;
+  line-height: 40px;
+}
+
+.c a {
+  text-decoration-line: none;
+  margin-left: 240px;
+  line-height: 40px;
+}
+
+.d {
+  margin-left: 240px;
+}
+
+@media (max-width: 500px) {
+  body {
+    background-image: url(./images/bg-curve-mobile.svg);
+  }
+  .logo img {
+    height: 50px;
+    margin: 40px;
+    margin-right: 80px;
+  }
+  nav {
+    display: flex;
+    font-size: 15px;
+  }
+  .get {
+    flex-direction: column-reverse;
+    margin: 40px;
+    margin-bottom: 80px;
+  }
+  .left p {
+    font-size: 23px;
+    width: 550px;
+    line-height: 28px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 35px;
+    text-align: center;
+    width: 550px;
+  }
+  .get button {
+    font-size: 23px;
+    height: 60px;
+    width: 540px;
+  }
+  .get input {
+    width: 532px;
+    height: 49px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+  }
+  .right img {
+    height: 405px;
+    margin: 40px;
+    margin-left: 10px;
+  }
+  .banner {
+    flex-direction: column-reverse;
+    margin: 40px;
+  }
+  .left2 p {
+    font-size: 23px;
+    width: 550px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .box {
+    width: 500px;
+  }
+  .avtar {
+    height: 60px;
+  }
+  .right2 img {
+    margin-left: 10px;
+    height: 405px;
+    margin-bottom: 20px;
+  }
+  .box p {
+    width: 500px;
+    text-align: start;
+  }
+  .banner a {
+    font-size: 24px;
+  }
+  .avtarname p {
+    text-align: start;
+  }
+  .avtarname {
+    line-height: 0px;
+  }
+  .access {
+    flex-direction: column;
+    padding: 40px;
+    width: 565px;
+  }
+  .right3 input {
+    width: 553px;
+    height: 47px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .right3 button {
+    height: 60px;
+    width: 560px;
+    font-size: 22px;
+    margin-bottom: 40px;
+  }
+  p {
+    font-size: 23px;
+    line-height: 28px;
+    text-align: center;
+    width: 550px;
+  }
+  h2 {
+    font-size: 35px;
+    text-align: center;
+    width: 550px;
+  }
+  footer {
+    flex-direction: column;
+    align-items: center;
+    width: 565px;
+  }
+  .gridd {
+    padding: 40px;
+  }
+  .logooo {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    height: 75px;
+    padding-left: 170px;
+  }
+  .phonee {
+    height: 18px;
+  }
+  .emaill {
+    height: 18px;
+  }
+  .b a {
+    margin-left: 0px;
+  }
+  .c a {
+    margin-left: 0px;
+  }
+  .d {
+    margin-left: 0px;
+  }
+}

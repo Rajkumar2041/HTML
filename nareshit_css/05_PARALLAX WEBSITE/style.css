@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+.dm-serif-display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.dm-serif-display-regular-italic {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-style: italic;
+}
+body{
+    background-color:#9E8a78;
+    scroll-behavior: smooth;
+}
+.containr{
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    background-color: #353333;
+    color: white;
+    height: 40px;
+    width:98.9dvw;
+    margin-left: -9px;
+    margin-top: -9px;
+}
+.containr ul{
+    display: flex;
+    position: absolute;
+    left: 70dvw;
+    gap: 50px;
+}
+.containr a{
+    color: white;
+    font-size: 18px;
+}
+.containr button{
+    background-color: #9E8a78;
+    color: #353333;
+    border: #9E8a78;
+    position: absolute;
+    left: 86dvw;
+    height: 40px;
+    width: 200px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.containr button:hover{
+    opacity: 0.8;
+    color: white;
+}
+.containr a:hover{
+    opacity: 0.8;
+}
+.logo{
+    display: flex;
+    align-content: center;
+    position: fixed;
+    z-index: 1;
+    background-color: #2a2727;
+    height: 100px;
+    width: 100vw;
+    margin-left: -9px;
+}
+.lo img{
+    margin-top: 5px;
+    height: 90px;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-right: 840px;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    font-size: 19px;
+    font-weight:600;
+}
+.nav a:hover{
+    opacity: 0.8;
+}
+.slideshow-container-fluid {
+    max-width: 100svw;
+    position: relative;
+    top:108.5px;
+    margin: -8px;
+  }
+  .text {
+    align-content: center;
+    
+    color: white;
+    font-size: 25px;
+    padding: 120px;
+    position: absolute;
+    bottom: 8px;
+    width: 45%;
+  }
+  .text p{
+    line-height: 35px;
+  }
+  .text h2{
+    font-size: 50px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+  }
+  .text button{
+    height: 45px;
+    width: 240px;
+    background-color: #9E8a78;
+    border-color: #9E8a78;
+    color: white;
+    font-weight: 550;
+    font-size: 15px;
+  }
+  .text button:hover{
+    opacity: 0.8;
+  }
+  .price{
+    margin-top: 90px;
+    padding: 100px;
+    display:flex;
+    gap: 60px;
+  }
+  .box{
+    padding: 35px;
+    font-size: 25px;
+    width: 280px;
+    height:375px;
+    background-color: #2a2727;
+    color: white;
+    border-radius: 7px;
+  }
+  .box p{
+    font-size: 18px;
+  }
+  .services h2{
+    position: relative;
+    top: 120px;
+    margin-left: 490px;
+    text-decoration: underline;
+    width:max-content;
+    font-size: 40px;
+  }
+  .box button{
+    margin-top: 20px;
+    width: 200px;
+    height: 35px;
+    background-color: #9E8a78;
+    color: white;
+    font-weight: bold;
+  }
+  .box:hover{
+    transform:translate(5px, 5px);
+  }
+  .box button:hover{
+    opacity: 0.8;
+  }
+  .img2{
+    border-radius: 10px;
+    height: 500px;
+    margin-top: 75px;
+  }
+.aboutt h2{
+    font-size: 40px;
+    text-decoration: underline;
+}
+.aboutt p{
+    font-size: 20px;
+}
+.container{
+    margin-top: 250px;
+    display: flex;
+}
+.aboutt{
+    width: 670px;
+    margin: 50px;
+}
+.aboutt button{
+    margin-top: 10px;
+    background-color: #2a2727;
+    color: white;
+    height: 40px;
+    width: 200px;
+}
+.aboutt button:hover{
+    opacity: 0.8;
+}
+.par{
+    background-image: url(./gallery/Barbershop.jpg);
+    min-height: 650px;
+    margin: -8px;
+}
+.par {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+  }
+  .textBg {
+    background: #313534;
+    color: #fff;
+    padding: 20px;
+  }
+  footer img{
+    width: 99dvw;
+    margin-left: -8px;
+    height: 190px;
+    margin-bottom: -12px;
+  }
+.last{
+    margin-top: 9px;
+    margin-bottom: -8px;
+}
+.boxxx{
+    position: fixed;
+    bottom:50px;
+    right:10px;
+    height:max-content;
+    width: 31px;;
+    font-size: 22px;
+    padding: 5px;
+    color: #9E8a78;
+    background-color: #2a2727;
+}
+.boxxx a{
+    color: #9E8a78;
+}
+.boxxx a:hover{
+    opacity: 0.8;
+}
+@media (max-width: 500px){
+  *{font-style: normal;}
+  .containr{
+    padding-left: 20px;
+    height: 90px;
+    width:400dvw;
+    font-size: 25px;
+}
+.containr ul{
+  left: 190dvw;
+  gap: 60px;
+}
+.containr a{
+  font-size: 35px;
+}
+.containr button{
+  left: 290dvw;
+  height: 90px;
+  width: 350px;
+  font-size: 25px;
+}
+.logo{
+  height: 150px;
+  width: 400dvw;
+}
+.lo img{
+  margin-top: 5px;
+  height: 140px;
+  margin-right: 10px;
+}
+.nav{
+  gap: 150px;
+  font-size: 30px;
+}
+.slideshow-container-fluid {
+  top:159px;
+  margin: -8px;
+}
+.fade{
+  width: 399.8dvw;
+}
+.text {
+  font-size: 30px;
+  padding: 100px;
+  width: 1000px;
+}
+.text button{
+  height: 70px;
+  width: 350px;
+  color: #2a2727;
+  font-size: 25px;
+}
+.price{
+  display:none;
+}
+.services h2{
+  display: none;
+}
+.img2{
+  height: 700px;
+  margin-top: -100px;
+  margin-left: 165px;
+  margin-bottom: 150px;
+}
+.aboutt h2{
+  font-size: 45px;
+  text-align: center;
+}
+.aboutt p{
+  font-size: 30px;
+  line-height: 35px;
+  text-align: justify;
+}
+.container{
+  margin-top: 250px;
+  flex-direction: column;
+}
+.aboutt{
+  width: 1060px;
+  margin: 150px;
+  margin-left: 100px;
+  margin-top: -30px;
+}
+.aboutt button{
+  height: 65px;
+  width: 300px;
+  font-size: 20px;
+  margin-left: 762px;
+}
+.par{
+  min-height: 800px;
+  width: 1280px;
+}
+.ptext {
+  font-weight: bold;
+}
+footer img{
+  width: 400dvw;
+}
+.boxxx{
+  right:50px;
+  width: 45px;
+  font-size: 40px;
+}
+}
