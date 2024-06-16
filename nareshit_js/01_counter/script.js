@@ -1,5 +1,5 @@
 const incr= document.getElementById('incc')
-// const numm= document.getElementById('num')
+const numm= document.getElementById('num')
 let n=0;
 function inc ()
 {
@@ -7,6 +7,8 @@ function inc ()
     if(n>20)
         {alert("max 20"), n=0;}
     incr.innerHTML = n
+    if(n%2==0) numm.innerText="EVEN"
+    else numm.innerText="ODD"
 }
 
 function dec ()
@@ -15,9 +17,13 @@ function dec ()
     if(n<0)
         {alert("min 0"), n=0;}
     incr.innerHTML = n
+    if(n%2==0) numm.innerText="EVEN"
+    else numm.innerText="ODD"
 }
 
 function reset ()
 {
-    incr.innerHTML = 0
+    n=0
+    incr.innerHTML = n
+    numm.innerText="EVEN"
 }

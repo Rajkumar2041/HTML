@@ -1,0 +1,153 @@
+*
+{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background-color: black;
+    color: white;
+}
+
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(46, 41, 41);
+    color: white;
+    height: 13dvh;
+    padding: 55px;
+    font-size: 18px;
+    margin: -7.7px;
+}
+
+.icons
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.home
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.about
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search
+{
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+    border-radius: 30px;
+}
+
+input
+{
+    background-color: rgb(46, 41, 41);
+    border-color: rgb(46, 41, 41);
+    color: white;
+    height: 30px;
+    width: 220px;
+}
+
+i
+{
+    color: yellow;
+}
+
+.search i 
+{
+    color: black;
+    margin-left: 5px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+span
+{
+    color: yellow;
+}
+
+.where
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-style: italic;
+    padding: 50px;
+    font-size: 20px;
+}
+
+main
+{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+    padding: 50px;
+}
+
+img
+{
+    border-radius: 10px;
+    height: 50dvh;
+    width: 16dvw;
+}
+
+h5
+{
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 30px;
+    text-align: justify;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(46, 41, 41);
+    color: rgb(185, 178, 178);
+    height: 10dvh;
+    padding: 55px;
+    font-size: 18px;
+    margin: -7.7px;
+}
+
+.color
+{
+    background-color: yellow;
+    height: 13px;
+    margin: -7.7px;
+}
+
+.home:hover
+{
+    color: rgb(226, 226, 132);
+}
+
+.about:hover
+{
+    color: rgb(226, 226, 132);
+}
+
+img:hover
+{
+    translate: 10px;
+}

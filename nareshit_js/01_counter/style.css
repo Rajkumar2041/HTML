@@ -3,6 +3,7 @@ body
     background:linear-gradient(to left, white, blue);
     display:flex;
     justify-content: center;
+
 }
 
 .border{

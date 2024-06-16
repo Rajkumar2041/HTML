@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <h2>Countdown Timer</h2>
+    </div>
+    <div class="buttons">
+        <div class="btn"><button onclick="one(1)">1 Minute</button></div>
+        <div class="btn"><button onclick="one(5)">5 Minutes</button></div>
+        <div class="btn"><button onclick="one(10)">10 Minutes</button></div>
+        <div class="btn"><button onclick="one(15)">15 Minutes</button></div>
+        <div class="btn"><button onclick="two(0)">15 Minutes</button></div>
+    </div>
+    <div class="timer">
+        <p id="countdown"></p>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+    <dotlottie-player src="https://lottie.host/ff2df98b-8461-41b2-96b6-e9814cf50926/Bb5gHvvbBy.json" 
+    background="transparent" speed="0.2" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

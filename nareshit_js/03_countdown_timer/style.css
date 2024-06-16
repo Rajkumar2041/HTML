@@ -1,0 +1,54 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url(https://img.freepik.com/free-vector/leaves-background-design_79603-949.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+h2
+{
+    display: flex;
+    justify-content: center;
+    background-color:whitesmoke;
+    font-weight: bold;
+    padding-top: 5px ;
+    padding-bottom: 5px ;
+    height: 40px;
+    text-decoration: underline;
+}
+
+.buttons
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button
+{
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+button:hover
+{
+    background-color: aquamarine;
+}
+
+p
+{
+    font-size: 195px;
+}
+
+.timer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
